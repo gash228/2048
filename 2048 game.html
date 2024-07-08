@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stil.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>2048</title>
+</head>
+<body>
+
+
+<div class="container">
+    <button  id="Gumb" onclick="PredNastavitve()">Začni igro!</button>
+</div>
+<div class="slidecontainer">
+    <input type="range" min="3" max="8" value="5" class="none" id="myRange">
+    <div id="under" class="none">5</div>
+  </div>
+  <span id="controls-menu" class="none">
+    <h2>Menu</h2>
+    <p>Določite tipke:</p>
+    <label for="up-key">Up:</label>
+    <input type="text" id="up-key" value="ArrowUp">
+    <label for="down-key">Down:</label>
+    <input type="text" id="down-key" value="ArrowDown">
+    <label for="right-key">Right:</label>
+    <input type="text" id="right-key" value="ArrowRight">
+    <label for="left-key">Left:</label>
+    <input type="text" id="left-key" value="ArrowLeft">
+
+    <button onclick="saveControls()">Save</button>
+
+</div>
+
+<div id="win-screen">
+    <h1 id="win-text"></h1>
+</div>
+
+  <script src="skripta.js">
+    
+  </script>
+
+</body>
+</html>

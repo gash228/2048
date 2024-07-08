@@ -1,0 +1,168 @@
+body{
+    background-color: beige;
+}
+
+.tabela_igra{
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+  }
+
+#Gumb{
+    height: 135px;
+    width: 450px;
+    font-size: 60px;
+    background-color: lime;
+    border-color: limegreen;
+    padding: 15px;
+}
+
+.gumb{
+    margin-left: 5%;
+    height: 40px;
+    width: 20%;
+    font-size: 25px;
+    background-color: rgb(225, 231, 225);
+    border-color: rgb(172, 179, 172);
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+td{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    border: solid 4px darkgray;
+    background-color: lightgray;
+}
+
+.d2048{
+    margin-left: 25%;
+    font-family: Nunito;
+    font-size: 80px;
+    margin-top: 3%;
+    display: inline-block;
+}
+
+.ic{
+    width: 50%;
+    display: flex;
+}
+
+.score{
+    font-family: Nunito;
+    font-size: 60px;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.gameOver{
+    font-family: Nunito;
+    font-size: 100px;
+}
+
+.gameOverscreenWin{
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameOverscreenLose{
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+.slider{
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 40%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #e0d1d1; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+
+  .slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; 
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+.none{
+    display: none;
+}
+
+#under{
+    font-family: Nunito;
+    font-size: 20px;
+}
+
+#renew{
+    font-size: 36px;
+    cursor: pointer;
+}
+
+#settings{
+    font-size: 36px;
+    cursor: pointer;
+}
+
+
+#controls-menu {
+    position: absolute;
+    width: 65%;
+    margin-left: 25%;
+    margin-top: 15%;
+    height: 30%;
+    background-color: rgb(169, 166, 166);
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+
+
